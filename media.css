@@ -1,0 +1,22 @@
+@media screen and (max-width : 1030px) {
+  body {
+    min-height: 41rem;
+  }
+
+  .main-weather {
+    height: 36rem;
+  }
+}
+
+@media screen and (max-width : 430px) {
+  .search-box {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .search-box input {
+    width: 15rem;
+  }
+}
