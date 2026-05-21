@@ -29,42 +29,36 @@
 @media screen and (max-height: 1200px) {
   body {
     min-height: 64rem;
-    background-color: aqua;
   }
 }
 
 @media screen and (max-height: 1000px) {
   body {
     min-height: 57rem;
-    background-color: aqua;
   }
 }
 
 @media screen and (max-height: 900px) {
   body {
-    min-height: 55rem;
-    background-color: aqua;
+    min-height: 50rem;
   }
 }
 
 @media screen and (max-height: 800px) {
   body {
     min-height: 45rem;
-    background-color: aqua;
   }
 }
 
 @media screen and (max-height: 700px) {
   body {
     min-height: 43rem;
-    background-color: aqua;
   }
 }
 
 @media screen and (max-height: 650px) {
   body {
     min-height: 40rem;
-    background-color: aqua;
   }
 }
 
