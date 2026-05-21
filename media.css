@@ -1,10 +1,7 @@
 @media screen and (max-width : 1030px) {
-  body {
-    min-height: 41rem;
-  }
-
   .main-weather {
     height: 36rem;
+    /* width: 40rem; */
   }
 }
 
@@ -26,6 +23,27 @@
     flex-wrap: wrap;
     height: 38rem;
     width: 22rem;
+  }
+}
+
+@media screen and (max-height: 1200px) {
+  body {
+    min-height: 64rem;
+    background-color: aqua;
+  }
+}
+
+@media screen and (max-height: 1000px) {
+  body {
+    min-height: 57rem;
+    background-color: aqua;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  body {
+    min-height: 55rem;
+    background-color: aqua;
   }
 }
 
@@ -65,5 +83,16 @@
   .main-weather {
     height: 36rem;
     width: 21rem;
+  }
+}
+
+@media screen and (max-height: 570px) and (max-width: 320px) {
+  body {
+    min-height: 35rem;
+  }
+
+  .main-weather {
+    height: 34rem;
+    width: 19rem;
   }
 }
